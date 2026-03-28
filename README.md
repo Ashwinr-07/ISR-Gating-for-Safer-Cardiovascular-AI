@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="ISR Gating Logo" width="180"/>
+  <img src="logo.png" alt="ISR Gating Logo" width="380"/>
 </p>
 
 <h1 align="center">Countering Order-Sensitivity in Language Models:<br>ISR Gating for Safer Cardiovascular AI</h1>
@@ -28,6 +28,10 @@ We evaluate on **4,476 admissions** from the MIMIC-IV-Ext Cardiac Disease datase
 
 ## Key Results
 
+<p align="center">
+  <img src="docs/assets/results_summary.png" alt="Results Summary" width="640"/>
+</p>
+
 | Mode | Coverage | Accuracy | Error (Wilson upper) |
 |---|---|---|---|
 | Ungated (baseline) | 100% | 84.3% | — |
@@ -35,6 +39,18 @@ We evaluate on **4,476 admissions** from the MIMIC-IV-Ext Cardiac Disease datase
 | Hybrid ISR + τ (h* ≤ 10%) | **76%** | **93.0%** | ≤ 10% |
 
 **32.4%** of test cases flip their predicted diagnosis under section reordering — ISR gating detects and abstains on these unstable cases.
+
+<p align="center">
+  <img src="docs/assets/flip_rates.png" alt="Prediction Flip Rates" width="520"/>
+</p>
+
+<p align="center">
+  <img src="docs/assets/operating_points.png" alt="Operating Points" width="520"/>
+</p>
+
+<p align="center">
+  <img src="docs/assets/coverage_curves.png" alt="Coverage–Accuracy Tradeoff" width="640"/>
+</p>
 
 ---
 
