@@ -25,7 +25,7 @@ We evaluate on **4,476 admissions** from the MIMIC-IV-Ext Cardiac Disease datase
 ## Architecture
 
 <p align="center">
-  <img src="<img width="780" height="1227" alt="image" src="https://github.com/user-attachments/assets/d3052c4c-0b58-4460-abc9-d1537a2269c7" />" alt="ISR Gating Architecture" width="700"/>
+<img width="780" height="1227" alt="image" src="https://github.com/user-attachments/assets/d3052c4c-0b58-4460-abc9-d1537a2269c7" />
 </p>
 
 ## Key Results
